@@ -44,8 +44,8 @@ export function from_words(words) {
   let longitude = 0
   for (let i = 0; i < words.length; i++) {
     let [wlat, wlng] = 0;
-    for (var j = 0; j < tileseeds[i].length; j++) {
-      let index = tileseeds[j].indexOf(words[i]);
+    for (var j = 0; j < tiles[i].seed.length; j++) {
+      let index = tiles[j].seed.indexOf(words[i]);
       if (index > -1) {
         wlat = i;
         wlng = index;
@@ -59,4 +59,5 @@ export function from_words(words) {
       lat: latitude.sub(180),
       lng: longitude.sub(90)
   }
+}
 }
