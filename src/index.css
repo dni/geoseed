@@ -25,3 +25,9 @@ ol {
     font-size: 18px;
     border-radius: 5px;
 }
+
+#github {
+    margin-top: 42px;
+    display: block;
+    color: #ddd;
+}
