@@ -26,8 +26,20 @@ ol {
     border-radius: 5px;
 }
 
-#github {
+footer {
     margin-top: 42px;
     display: block;
+}
+a {
     color: #ddd;
 }
+a:hover {
+    color: #aaa;
+}
+h1 {
+    margin-bottom: 0;
+}
+h3 {
+    margin-top: 0;
+}
+

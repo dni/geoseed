@@ -83,8 +83,6 @@ const set_search = (index, search) => {
 render(
   () => (
     <div id="app">
-      <h1>Geoseed Generator</h1>
-      <p>Search Wikipedia for a Object with geolocation</p>
       <h2>Settings</h2>
       <div id="locations">
           <label for="locations">Locations: </label>
