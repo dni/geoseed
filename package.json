@@ -1,0 +1,24 @@
+{
+  "name": "geoseed",
+  "version": "0.0.0",
+  "description": "Generate BIP39 Seedphrase via Openstreetmaps. Backup your seeds with 3 or 4 geolocations. ",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "loglevel": "^1.8.1",
+    "prettier": "^2.8.4",
+    "vite": "^4.2.1",
+    "vite-plugin-solid": "^2.6.1"
+  },
+  "dependencies": {
+    "bip39": "^3.1.0",
+    "fraction.js": "^4.2.0",
+    "solid-js": "^1.7.0",
+    "vite-plugin-node-polyfills": "^0.7.0",
+    "where39": "^1.0.0"
+  }
+}

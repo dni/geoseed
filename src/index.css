@@ -1,0 +1,27 @@
+body {
+    background: #333;
+    color: #ddd;
+    text-align: center;
+}
+
+ol {
+    text-align: left;
+    display: inline-block;
+}
+
+#words {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 32px;
+    max-width: 500px;
+    margin: auto;
+}
+.word {
+    display: inline-block;
+    margin: 6px;
+    padding: 6px 12px;
+    background: #111;
+    font-size: 18px;
+    border-radius: 5px;
+}
