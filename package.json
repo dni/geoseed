@@ -6,7 +6,8 @@
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "build": "vite build; cp CNAME dist; cp dist/index.html dist/404.html"
   },
   "devDependencies": {
     "loglevel": "^1.8.1",

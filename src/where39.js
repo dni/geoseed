@@ -60,4 +60,3 @@ export function from_words(words) {
       lng: longitude.sub(90)
   }
 }
-}
